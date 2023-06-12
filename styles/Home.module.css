@@ -1,10 +1,20 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background: linear-gradient(to bottom, #8E2DE2, #4A00E0)
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #8E2DE2, #4A00E0)
 }
 
 .description {
